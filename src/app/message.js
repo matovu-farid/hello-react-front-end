@@ -1,5 +1,6 @@
 /* eslint-disable no-param-reassign */
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+
 const fetchRandomMessage = createAsyncThunk('/message/random', async () => {
   const response = await fetch('http://localhost:3000/api/v1/message/random');
   if (response.ok) return response.json();
