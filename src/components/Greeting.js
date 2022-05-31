@@ -1,13 +1,12 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { useSelector } from "react-redux";
-const Greeting =()=> {
-   const text = useSelector(state => state.message.message.text)
+import React from 'react';
+import { useSelector } from 'react-redux';
 
-    return (
-      <h1>{text}</h1>
-    );
-  
-}
+const Greeting = () => {
+  const text = useSelector((state) => state.message.message.text);
 
-export default Greeting
+  return (
+    <h1>{text}</h1>
+  );
+};
+
+export default Greeting;
