@@ -1,46 +1,52 @@
-# Getting Started with Create React App and Redux
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Description
 
-## Available Scripts
+The hello react font end is created to help me learn how to integrate rails back end code that will be used by a front end react app
 
-In the project directory, you can run:
 
-### `npm start`
+![screenshot](./screenshot.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Ruby
+- Ruby on Rails
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get the content of this project locally you need to run this command in your terminal:
+Mak sure the server is running from the [backend project](https://github.com/matovu-farid/hello-rails-back-end)
+``` bash
+git clone your https://github.com/matovu-farid/hello-react-front-end.git
+cd hello-react-front-end
+npm install
+npm start
+```
 
-### `npm run build`
+## Backend end
+This is a link to the backend github [project](https://github.com/matovu-farid/hello-rails-back-end)
+```
+https://github.com/matovu-farid/hello-rails-back-end
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 **Matovu Farid Nkoba**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- GitHub: [@matovu-farid](https://github.com/matovu-farid)
+- Twitter: [@matovu100](https://twitter.com/matovu100)
+- LinkedIn: [matovu-farid](https://www.linkedin.com/in/matovu-farid-48b80257)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Show your support
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Give a ⭐️ if you like this project!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Hat tip to Microverse
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is [MIT](./MIT.md) licensed.
